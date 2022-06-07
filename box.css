@@ -13,7 +13,7 @@ div {
 
 #a{
     background-color: red;
-    position: fixed;
+    position: sticky;
     top: 0px;
     left: 0px;
 }
