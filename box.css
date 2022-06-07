@@ -2,8 +2,13 @@ div {
     background-color: hsl(0, 0%, 26%);
     color: hsl(0, 0%, 100%);
     display: block;
-    width: 120px;
-    height: 60px;
+    width: 200px;
+    height: 120px;
+    overflow: auto;
+    padding: 10px;
+    border: solid 2px black;
+    margin: 15px;
+    box-sizing: border-box;
 }
 
 #a{
@@ -11,5 +16,12 @@ div {
 }
 
 #b{
-    color: green;
+    background-color: green;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#c{
+    background-color: blue;
 }
