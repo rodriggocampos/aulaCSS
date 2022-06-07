@@ -13,13 +13,14 @@ div {
 
 #a{
     background-color: red;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 #b{
     background-color: green;
-    position: relative;
-    top: 0px;
-    left: 0px;
+   
 }
 
 #c{
