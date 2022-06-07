@@ -1,7 +1,15 @@
 div {
-    background-color: black;
-    color: aliceblue;
+    background-color: hsl(0, 0%, 26%);
+    color: hsl(0, 0%, 100%);
     display: block;
     width: 120px;
     height: 60px;
+}
+
+#a{
+    background-color: red;
+}
+
+#b{
+    color: green;
 }
